@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Open+Sans:wght@300&display=swap');
 * {
     box-sizing:border-box;
 }
@@ -10,17 +10,23 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header>h1 {
     background-color: yellow;
 }
 
+img {
+    float:left;
+    margin-right:20px;
+}
+
 blockquote {
     width:50%;
     margin:auto;
     font-size: 160%;
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(245, 243, 243,0.5);
     border-left: 3px solid red;
     padding: 0 0 0 30px;
     margin:80px 0;
@@ -75,7 +81,7 @@ a {
 
 
 a:visited{
-    color:green;
+    color:rgb(233, 215, 20);
 }
 
 a:hover {
