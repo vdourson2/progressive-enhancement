@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 * {
+    box-sizing:border-box;
+}
 
+body {
+    max-width:90%;
+    margin: auto;
+    background:url(logoBecode.png), linear-gradient(180deg, rgb(176, 226, 238), rgb(14, 81, 149));
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    border:solid;
+}
+
+blockquote {
+    width:50%;
+    margin:auto;
+    font-size: 160%;
+    background-color: rgb(245, 243, 243);
+    border-left: 3px solid red;
+    padding: 0 0 0 30px;
+    margin:80px 0;
 }
 
 p{
@@ -9,3 +29,19 @@ p{
     letter-spacing : 0.4px;
     color:rgb(4, 4, 55)
 }
+
+a {
+    font-weight:bolder;
+    text-transform:uppercase;
+}
+
+
+a:visited{
+    color:green;
+}
+
+a:hover {
+    color:red;
+}
+
+
